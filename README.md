@@ -99,15 +99,13 @@ docker build -t webapirepo .
 docker tag webapirepo:latest public.ecr.aws/x7p6e5r6/webapirepo:latest
 ```
 
-- Push the Docker image to AWS ECR
+## 4. Push the Docker image to AWS ECR
+
+Push the Docker image to AWS ECR
 
 ```
 docker push public.ecr.aws/x7p6e5r6/webapirepo:latest
 ```
-
-## 4. Push the Docker image to AWS ECR
-
-
 
 
 ## 5. Deploy Docker image from AWS ECR to AWS ECS

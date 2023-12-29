@@ -1,4 +1,4 @@
-# How to deploy SpringBoot WebAPI to AWS ECS CURRO FRANCISQUITO
+# How to deploy SpringBoot WebAPI to AWS ECS
 
 ## 1. Create Spring Boot Web API application with VSCode
 

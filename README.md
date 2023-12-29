@@ -41,7 +41,23 @@ ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/demoapi.ja
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/7fbf63ba-1957-4358-82ff-90a9767c2eb7)
 
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/36e8c7a9-86ec-4cc0-a82b-e0df750a9b42)
 
+```
+aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws/x7p6e5r6
+```
+
+```
+docker build -t webapirepo .
+```
+
+```
+docker tag webapirepo:latest public.ecr.aws/x7p6e5r6/webapirepo:latest
+```
+
+```
+docker push public.ecr.aws/x7p6e5r6/webapirepo:latest
+```
 
 ## 4. Push the Docker image to AWS ECR
 

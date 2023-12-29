@@ -67,15 +67,34 @@ docker login
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/9204df56-7122-492d-a6b7-36f776c85b05)
 
-- 
+- Configure AWS account with access key and secret key
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/35647989-b216-4874-b676-7ddb9c1ad75f)
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/eb6013e4-19e3-4e96-a291-9490ed96e383)
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/9d6fd152-1dda-4737-aa81-9d6b4d9e011f)
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/6a403ad2-8b0f-4523-90a4-99a63b0a9590)
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/9c559b92-d8c8-4bab-b7c5-eccbcc5f3466)
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/7838b037-2975-4604-9719-77d59e172dbf)
+
+
+- Create Docker image
 
 ```
 docker build -t webapirepo .
 ```
 
+- Set the Docker image name
+
 ```
 docker tag webapirepo:latest public.ecr.aws/x7p6e5r6/webapirepo:latest
 ```
+
+- Push the Docker image to AWS ECR
 
 ```
 docker push public.ecr.aws/x7p6e5r6/webapirepo:latest

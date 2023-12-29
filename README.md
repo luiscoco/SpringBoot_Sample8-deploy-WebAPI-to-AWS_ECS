@@ -53,9 +53,15 @@ aws ecr-public get-login-password --region us-east-1 | docker login --username A
 
   ![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/5d936873-cb7f-4391-94d3-73f2c29de864)
 
-- 
+- Type the command:
 
-- 
+```
+docker login
+```
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/b0006793-cbd6-4290-b92c-74fe5ba1065e)
+
+-  
 
 - 
 

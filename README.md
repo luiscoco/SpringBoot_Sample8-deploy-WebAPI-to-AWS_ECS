@@ -47,6 +47,17 @@ ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/demoapi.ja
 aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws/x7p6e5r6
 ```
 
+**IMPORTANT**: if you cannot enter in the AWS ECR follow these steps
+
+- Delete config.json file in the following location:
+  ![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/5d936873-cb7f-4391-94d3-73f2c29de864)
+
+- 
+
+- 
+
+- 
+
 ```
 docker build -t webapirepo .
 ```

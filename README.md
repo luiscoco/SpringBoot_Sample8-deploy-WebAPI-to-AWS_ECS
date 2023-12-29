@@ -49,7 +49,8 @@ aws ecr-public get-login-password --region us-east-1 | docker login --username A
 
 **IMPORTANT**: if you cannot enter in the AWS ECR follow these steps
 
-- Delete config.json file in the following location:
+- Delete **config.json** file in the following location:
+
   ![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/5d936873-cb7f-4391-94d3-73f2c29de864)
 
 - 

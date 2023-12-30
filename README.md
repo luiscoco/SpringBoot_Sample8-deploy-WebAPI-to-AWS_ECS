@@ -48,6 +48,8 @@ http://localhost:80/actuator/health
 
 ## 2. Create a Docker Image 
 
+Create a Dockerfile and copy this content inside:
+
 ```
 # Start with a base image containing Java runtime
 FROM openjdk:11-jdk-slim as build
@@ -70,6 +72,8 @@ ADD ${JAR_FILE} demoapi.jar
 # Run the jar file
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/demoapi.jar"]
 ```
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/3eb904b1-e0a0-4804-b166-ef6919272419)
 
 ## 3. Create a AWS Elastic Container Registry ECR Public repo
 

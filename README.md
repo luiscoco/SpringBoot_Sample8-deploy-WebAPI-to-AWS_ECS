@@ -125,5 +125,6 @@ We set the cluster name and we leave the other options as they are
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/567b7b31-eb55-46dd-8eef-00dd6c72e5de)
 
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/239a1cb7-8756-47eb-86c3-868edb2e346d)
 
 

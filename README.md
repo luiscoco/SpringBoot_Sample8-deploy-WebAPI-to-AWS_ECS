@@ -214,7 +214,7 @@ We have to set container image name
 
 We set the container URL and the port mapping
 
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/ec20f0a7-acac-4c33-95a3-130d9c8e55fc)
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/9f9f49c6-956e-40f2-93a4-b65b463211b8)
 
 We leave the rest of options as they are by default and we press the ****
 

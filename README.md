@@ -250,18 +250,32 @@ Now we select the **Tasks** tab and we press on the task
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/33d7609b-d9d3-4ffd-8a40-a7bd1e44ce02)
 
-## 5.4. Allow inbound traffic on port 80
+## 5.4. How to create a new inbound rule to allow traffic on port 80
 
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/68680dd7-c2b1-4195-8a59-3972e67ef11f)
+We press in the **Networking** tab
 
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/1e02238c-74e1-4d7e-9d2a-19aae8450c0c)
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/ea06f358-5e7b-4c16-ba6c-91a4e48eadf8)
 
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/73a1b941-a805-4084-a105-638f7f00a626)
+We select the Security Group
 
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/3fd9b294-c2b1-4624-a5ce-87b7cb2e16ad)
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/5366a0b4-46fc-4b2d-b02f-2b70a5b44079)
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/82448e22-674f-4aea-ae58-c6d429b25ea3)
 
 ## 5.5. Verify the application endpoints
 
+We copy the Public IP address and we check the application endpoints
 
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/7b107bd6-850b-4c5c-b574-33a16da60e13)
+
+These are the application endpoints:
+
+http://16.170.245.89/hello
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/dcec8111-8dfe-4253-b081-8f01b0680e8b)
+
+http://16.170.245.89/actuator/health
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/c68bbc99-becc-4226-bd30-24e1008bb0f6)
 
 

@@ -175,49 +175,19 @@ docker push public.ecr.aws/x7p6e5r6/webapirepo:latest
 
 ## 5.1. Create a AWS ECS cluster
 
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/acb0442d-cbf2-4dd4-8de8-6a937e37cbbe)
 
-We set the cluster name and we leave the other options as they are
-
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/955d1d31-0433-497f-9017-4a79da12ad65)
-
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/567b7b31-eb55-46dd-8eef-00dd6c72e5de)
-
-See the new cluster in the list
-
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/239a1cb7-8756-47eb-86c3-868edb2e346d)
 
 ## 5.2. Create a Task Definition
 
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/d47edef6-e863-437a-982b-5f31a41341df)
 
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/d7fdce8d-ba42-43e2-8c3c-288e5ac41052)
-
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/e46fa7c4-3166-4cef-a52a-32955d62dde8)
-
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/843f7676-13cb-4825-8f2b-3f7999f26491)
-
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/c651f156-8961-413e-afe9-50ac34a38574)
-
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/77dcbfa3-e5a7-4bc5-aee9-4057b18b5478)
-
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/efe1d0b2-ae74-43be-9b46-4f1bde8d3de5)
 
 ## 5.3. Create a Service
 
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/b0dcff27-7eb5-4ecf-ae72-332ea3c3ef40)
 
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/f18ec850-7332-405c-b6ce-df0f8e28b51a)
+## 5.4. Allow inbound traffic on port 80
 
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/b7252a62-8b30-4ad8-9524-ada5c3196eb0)
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/68680dd7-c2b1-4195-8a59-3972e67ef11f)
 
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/e9d6b9e4-e1cf-4786-99ac-cf1ae1043746)
-
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/93a29431-5d87-4522-8093-408a92a930b9)
-
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/80a56e69-2a3a-4f63-a62b-b323fe5c3450)
-
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/d7b705af-24ac-4d77-bf1b-1b5b4fa4fccb)
 
 
 

@@ -244,7 +244,11 @@ It takes few minutes to create the new Service
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/7aaf99f9-83db-4817-89e4-ed329c0620ae)
 
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/bbcfc499-ff28-4678-b745-c552b27ad366)
 
+Now we select the **Tasks** tab and we press on the task 
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/33d7609b-d9d3-4ffd-8a40-a7bd1e44ce02)
 
 ## 5.4. Allow inbound traffic on port 80
 

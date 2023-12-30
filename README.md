@@ -175,7 +175,22 @@ docker push public.ecr.aws/x7p6e5r6/webapirepo:latest
 
 ## 5.1. Create a AWS ECS cluster
 
+We press in the **Create cluster** button:
 
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/c579fe57-ed5f-4efa-b1c7-aa7a59770086)
+
+We set the AWS Cluster name
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/02c3df1b-1f1d-4287-ba90-816f1673144b)
+
+We leave the **Fargate** option checked and we press the **Create** button
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/c1931171-26dc-41b9-b5f2-2550d8f8c3c7)
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/80d0961b-8a96-47d3-8af3-c7ae99b6db08)
+
+**Note**: we selected the eu-north-1 region but the more advisable solution is select eu-west-3 because it is the nearest to our location in Spain.
+But today I had some technical problems creating cluster in Paris region and I decided to slect the Stockholm one.
 
 ## 5.2. Create a Task Definition
 

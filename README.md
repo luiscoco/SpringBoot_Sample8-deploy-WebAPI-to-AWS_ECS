@@ -147,6 +147,10 @@ See the new cluster in the list
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/efe1d0b2-ae74-43be-9b46-4f1bde8d3de5)
 
+## 5.3. Create a Service
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/b0dcff27-7eb5-4ecf-ae72-332ea3c3ef40)
+
 
 
 

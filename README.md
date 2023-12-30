@@ -224,6 +224,13 @@ We leave the rest of options as they are by default and we press the ****
 
 ## 5.3. Create a Service
 
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/08725d47-bfdf-4db9-a81c-c0ffc1ab40a3)
+
+We select the launch type **Fargate**
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/5244210e-02be-4035-843d-4e5fe244929a)
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/2ade5111-6231-4beb-93d2-fed68d04f54a)
 
 ## 5.4. Allow inbound traffic on port 80
 

@@ -117,6 +117,8 @@ docker push public.ecr.aws/x7p6e5r6/webapirepo:latest
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/a05905db-bda1-402c-89ef-3137ddc1809a)
 
+## 5.1. Create a AWS ECS cluster
+
 ![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/acb0442d-cbf2-4dd4-8de8-6a937e37cbbe)
 
 We set the cluster name and we leave the other options as they are
@@ -129,7 +131,7 @@ See the new cluster in the list
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/239a1cb7-8756-47eb-86c3-868edb2e346d)
 
-We create the Task Definition
+## 5.2. Create a Task Definition
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/d47edef6-e863-437a-982b-5f31a41341df)
 

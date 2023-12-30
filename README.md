@@ -194,7 +194,31 @@ But today I had some technical problems creating cluster in Paris region and I d
 
 ## 5.2. Create a Task Definition
 
+We press the **Create new task definition** button
 
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/b4a14f9d-747c-4e02-9dcc-0cb623d578b4)
+
+We select the infrastructure option **Fargate**
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/77ebcb86-84fe-46e6-b707-f25eb67ee179)
+
+We leave the rest of options as they are by default
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/54fc665a-8bc4-43c2-8704-c5bdc3ffa4ac)
+
+We have to set container image name
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/b05bbc17-d52b-4d1e-8a7a-1d039a10e70f)
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/7b02a697-a096-47bb-82d6-b8683f943a4f)
+
+We set the container URL and the port mapping
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/ec20f0a7-acac-4c33-95a3-130d9c8e55fc)
+
+We leave the rest of options as they are by default and we press the ****
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/b36d0171-9611-42d7-9ad2-0a38e2d54f8e)
 
 ## 5.3. Create a Service
 

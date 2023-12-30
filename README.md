@@ -161,5 +161,7 @@ See the new cluster in the list
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/80a56e69-2a3a-4f63-a62b-b323fe5c3450)
 
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/d7b705af-24ac-4d77-bf1b-1b5b4fa4fccb)
+
 
 

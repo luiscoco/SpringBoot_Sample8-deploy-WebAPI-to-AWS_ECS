@@ -188,6 +188,14 @@ docker push public.ecr.aws/x7p6e5r6/webapirepo:latest
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/68680dd7-c2b1-4195-8a59-3972e67ef11f)
 
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/1e02238c-74e1-4d7e-9d2a-19aae8450c0c)
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/73a1b941-a805-4084-a105-638f7f00a626)
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/3fd9b294-c2b1-4624-a5ce-87b7cb2e16ad)
+
+## 5.5. Verify the application endpoints
+
 
 
 

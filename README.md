@@ -24,6 +24,28 @@ info.app.description=A simple demo application
 info.app.version=1.0.0
 ```
 
+Before creating the docker image we should create the **JAR** file withe the following command:
+
+```
+mvn clean install
+```
+
+We confirm we created the **target** folder
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/bc657d8d-5973-4a7e-ab7b-24d2e1ad23ba)
+
+After creating the **JAR** file we run the application with this command:
+
+```
+java -jar .\target\demoapi-0.0.1-SNAPSHOT.jar
+```
+
+We verify the application endpoints:
+
+http://localhost:80/hello
+
+http://localhost:80/actuator/health
+
 ## 2. Create a Docker Image 
 
 ```
@@ -108,28 +130,6 @@ aws ecr-public get-login-password --region us-east-1 | docker login --username A
 ```
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/236a141b-6e4a-45a1-8234-4cd4ca094d44)
-
-Before creating the docker image we should create the **JAR** file withe the following command:
-
-```
-mvn clean install
-```
-
-We verify we created the **target** folder
-
-![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/bc657d8d-5973-4a7e-ab7b-24d2e1ad23ba)
-
-After creating the **JAR** file we run the application with this command:
-
-```
-java -jar .\target\demoapi-0.0.1-SNAPSHOT.jar
-```
-
-- Verify the application endpoints:
-
-http://localhost:80/hello
-
-http://localhost:80/actuator/health
 
 - Now we can create the SpringBoot WebAPI Docker image with this command
 

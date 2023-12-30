@@ -220,6 +220,8 @@ We leave the rest of options as they are by default and we press the ****
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/b36d0171-9611-42d7-9ad2-0a38e2d54f8e)
 
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/4deef684-f035-4165-bce3-1b10776999cb)
+
 ## 5.3. Create a Service
 
 

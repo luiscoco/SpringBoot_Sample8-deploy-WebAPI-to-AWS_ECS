@@ -4,9 +4,7 @@
 
 See this repo: https://github.com/luiscoco/SpringBoot_Sample2-created-WebAPI-with-VSCode
 
-Set the application port to 80.
-
-This is the **application.properties** file
+We set, in the **application.properties** file, the application port to 80 
 
 ```
 # Server Configuration
@@ -51,7 +49,7 @@ ADD ${JAR_FILE} demoapi.jar
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/demoapi.jar"]
 ```
 
-## 3. Create a AWS Elastic Container Registry ECR public repo
+## 3. Create a AWS Elastic Container Registry ECR Public repo
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/4f686ab5-6f9f-45e0-8aec-a7ac8c3eb187)
 

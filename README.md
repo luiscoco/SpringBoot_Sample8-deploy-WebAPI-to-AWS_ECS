@@ -115,4 +115,12 @@ docker push public.ecr.aws/x7p6e5r6/webapirepo:latest
 
 ## 5. Deploy Docker image from AWS ECR to AWS ECS
 
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/a05905db-bda1-402c-89ef-3137ddc1809a)
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/acb0442d-cbf2-4dd4-8de8-6a937e37cbbe)
+
+We set the cluster name and we leave the other options as they are
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/955d1d31-0433-497f-9017-4a79da12ad65)
+
 

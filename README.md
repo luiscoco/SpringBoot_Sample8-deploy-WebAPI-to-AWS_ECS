@@ -262,6 +262,8 @@ We select the Security Group
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/82448e22-674f-4aea-ae58-c6d429b25ea3)
 
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/48a1428a-2211-48f4-b524-9d78b0ae762e)
+
 ## 5.5. Verify the application endpoints
 
 We copy the Public IP address and we check the application endpoints

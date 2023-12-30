@@ -133,3 +133,9 @@ We create the Task Definition
 
 ![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/d47edef6-e863-437a-982b-5f31a41341df)
 
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/d7fdce8d-ba42-43e2-8c3c-288e5ac41052)
+
+![image](https://github.com/luiscoco/SpringBoot_Sample8-deploy-WebAPI-to-AWS_ECS/assets/32194879/e46fa7c4-3166-4cef-a52a-32955d62dde8)
+
+
+

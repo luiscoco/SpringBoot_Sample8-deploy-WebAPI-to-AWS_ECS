@@ -46,7 +46,7 @@ http://localhost:80/hello
 
 http://localhost:80/actuator/health
 
-## 2. Create a Docker Image 
+## 2. Create a Docker file 
 
 Create a Dockerfile and copy this content inside:
 
